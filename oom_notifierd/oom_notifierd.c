@@ -61,7 +61,7 @@
 #define handle_error(msg) \
     do { perror(msg); exit(1); } while (0)
 
-#define ERROR_MSG_TO_USER "You exceeded your memory limit on this host. The kernel invoked the oom-killer which killed a process of yours to free up memory. No further action is required.\nRun 'loginlimits' to see the current limits.\a"
+#define ERROR_MSG_TO_USER "You exceeded your memory limit on this host. The kernel invoked the oom-killer which killed a process of yours to free up memory. No further action is required.\a"
 #define TIMEOUT_SECONDS 15
 /* This should never take much cputime away from people, so let's be nice */
 #define TARGET_NICE 15
